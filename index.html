@@ -1,13 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samuel Reyes Condori</title>
+    <meta name="description" content="Página personal con información sobre proyectos y cursos.">
+    <meta name="author" content="Samuel Reyes">
+    <title>Mi Página Personal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer></script>
 </head>
 <body>
-    <h1>Samuel Reyes Condori</h1>
-    <p>soy inteligente </p>
-    
+    <header>
+        <h1>Bienvenido a Mi Página Personal</h1>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="camaracommerce.html">Cámara</a></li>
+                <li><a href="https://github.com/tuusuario" target="_blank">Perfil de GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/tuusuario" target="_blank">LinkedIn</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">&#9776;</div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="certificates">
+            <h2>Certificados</h2>
+            <div>
+                <button id="showCSE">Mostrar CSE</button>
+                <button id="showWDD">Mostrar WDD</button>
+                <button id="showAll">Mostrar Todos</button>
+            </div>
+            <div id="courses-container"></div>
+        </section>
+        <section id="about">
+            <h2>Sobre Mí</h2>
+            <p>Descripción breve sobre ti.</p>
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Información de contacto.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Samuel Reyes Condori. Peru.</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
