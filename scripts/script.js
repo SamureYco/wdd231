@@ -7,7 +7,7 @@ const courses = [
         certificate: 'Web and Computer Programming',
         description: 'This course will introduce students to programming. It will introduce the building blocks of programming languages (variables, decisions, calculations, loops, array, and input/output) and use them to solve problems.',
         technology: ['Python'],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -17,7 +17,7 @@ const courses = [
         certificate: 'Web and Computer Programming',
         description: 'This course introduces students to the World Wide Web and to careers in web site design and development. The course is hands on with students actually participating in simple web designs and programming.',
         technology: ['HTML', 'CSS'],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -27,7 +27,7 @@ const courses = [
         certificate: 'Web and Computer Programming',
         description: 'CSE 111 students become more organized, efficient, and powerful computer programmers by learning to research and call functions written by others.',
         technology: ['Python'],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -37,7 +37,7 @@ const courses = [
         certificate: 'Web and Computer Programming',
         description: 'This course will introduce the notion of classes and objects. It will present encapsulation at a conceptual level.',
         technology: ['C#'],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -47,7 +47,7 @@ const courses = [
         certificate: 'Web and Computer Programming',
         description: 'This course builds on prior experience in Web Fundamentals and programming. Students will learn to create dynamic websites that use JavaScript to respond to events.',
         technology: ['HTML', 'CSS', 'JavaScript'],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
