@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Business A",
+        "address": "123 Main St, Timbuktu",
+        "phone": "123-456-7890",
+        "website": "http://businessa.com",
+        "image": "images/business-a.png",
+        "membershipLevel": 1,
+        "info": "Local boutique specializing in handmade goods."
+    },
+    {
+        "name": "Business B",
+        "address": "456 Secondary St, Timbuktu",
+        "phone": "123-456-7891",
+        "website": "http://businessb.com",
+        "image": "images/business-b.png",
+        "membershipLevel": 2,
+        "info": "A family-owned restaurant serving traditional cuisine."
+    },
+    {
+        "name": "Business C",
+        "address": "789 Third St, Timbuktu",
+        "phone": "123-456-7892",
+        "website": "http://businessc.com",
+        "image": "images/business-c.png",
+        "membershipLevel": 3,
+        "info": "Tech company providing software solutions."
+    },
+    {
+        "name": "Business D",
+        "address": "135 Fourth St, Timbuktu",
+        "phone": "123-456-7893",
+        "website": "http://businessd.com",
+        "image": "images/business-d.png",
+        "membershipLevel": 1,
+        "info": "Consulting services for small businesses."
+    },
+    {
+        "name": "Business E",
+        "address": "246 Fifth St, Timbuktu",
+        "phone": "123-456-7894",
+        "website": "http://businesse.com",
+        "image": "images/business-e.png",
+        "membershipLevel": 2,
+        "info": "Fitness center with a variety of classes."
+    },
+    {
+        "name": "Business F",
+        "address": "357 Sixth St, Timbuktu",
+        "phone": "123-456-7895",
+        "website": "http://businessf.com",
+        "image": "images/business-f.png",
+        "membershipLevel": 3,
+        "info": "Online retail store for home goods."
+    },
+    {
+        "name": "Business G",
+        "address": "468 Seventh St, Timbuktu",
+        "phone": "123-456-7896",
+        "website": "http://businessg.com",
+        "image": "images/business-g.png",
+        "membershipLevel": 1,
+        "info": "Art gallery showcasing local artists."
+    }
+]

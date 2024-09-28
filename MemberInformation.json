@@ -1,0 +1,22 @@
+[
+    {
+        "family_mame":"Reyes",
+        "move_in_date":"2024-06-24",
+        "number_of_people":"2",
+        "visited_by_bishopric":  true,
+        "family_members":[{
+
+            "name": "Samuel Reyes",
+            "gender":"Male",
+            "birthday":"2000-11-15"
+        },
+        {
+            "name":"Sandra Bances",
+            "gender":"Female",
+            "birthday":"1999-06-29"
+        }
+        ]
+
+    }
+
+]
