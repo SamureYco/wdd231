@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attractions in Chiclayo</title>
+    <link rel="stylesheet" href="styles/Atractions.css"> <!-- Link to your CSS -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="HomePage.html">Home</a></li>
+                <li><a href="AtractionsPage.html">Attractions</a></li>
+                <li><a href="ContactPage.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Major Attractions in Chiclayo</h1>
+        
+        <section id="attractions-list">
+            <div class="attraction">
+                <img src="images/Tucume.jpg" alt="Túcume Pyramids" loading="lazy">
+                <h2>Túcume Pyramids</h2>
+                <p>Explore the ancient Túcume Pyramids, a remarkable archaeological site consisting of 26 pyramids built by the Lambayeque culture.</p>
+                <button onclick="openModal('tucume-modal')">More Info</button>
+            </div>
+            
+            <div class="attraction">
+                <img src="images/SipanMuseum.jpg" alt="Royal Tombs of Sipán Museum" loading="lazy">
+                <h2>Royal Tombs of Sipán Museum</h2>
+                <p>Visit the Royal Tombs of Sipán Museum, which houses incredible treasures and artifacts from the Moche civilization.</p>
+                <button onclick="openModal('sipan-modal')">More Info</button>
+            </div>
+            
+            <div class="attraction">
+                <img src="images/chiclayoMarcket.jpg" alt="Chiclayo Market" loading="lazy">
+                <h2>Chiclayo Market</h2>
+                <p>Experience the vibrant atmosphere of the Chiclayo Market, a bustling hub where you can find fresh produce and delicious street food.</p>
+                <button onclick="openModal('market-modal')">More Info</button>
+            </div>
+
+            <div class="attraction">
+                <img src="images/catedralSantaMaria.jpg" alt="Santa Maria Cathedral" loading="lazy">
+                <h2>Santa Maria Cathedral</h2>
+                <p>This beautiful cathedral is a historical landmark and a stunning example of colonial architecture.</p>
+                <button onclick="openModal('cathedral-modal')">More Info</button>
+            </div>
+
+            <div class="attraction">
+                <img src="images/musas.jpg" alt="Paseo Las Musas" loading="lazy">
+                <h2>Paseo Las Musas</h2>
+                <p>A lovely park ideal for leisurely strolls, featuring sculptures and a serene environment.</p>
+                <button onclick="openModal('paseo-modal')">More Info</button>
+            </div>
+
+            <div class="attraction">
+                <img src="images/casaDeSipan.jpg" alt="Sipán" loading="lazy">
+                <h2>Sipán Archaeological Site</h2>
+                <p>Visit the site where the Lord of Sipán was buried, known for its rich archaeological significance.</p>
+                <button onclick="openModal('sipan-site-modal')">More Info</button>
+            </div>
+
+            <div class="attraction">
+                <img src="images/Pimentel2.jpg" alt="Chiclayo Beach" loading="lazy">
+                <h2>Chiclayo Beach</h2>
+                <p>Relax at the beautiful beaches near Chiclayo, perfect for sunbathing and enjoying fresh seafood.</p>
+                <button onclick="openModal('beach-modal')">More Info</button>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Chiclayo Travel Guide</p>
+        <a href="atributions.html">Attributions</a>
+    </footer>
+    
+    <!-- Modals -->
+    <div id="tucume-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('tucume-modal')">&times;</span>
+            <h2>Túcume Pyramids</h2>
+            <p>Additional information about Túcume Pyramids...</p>
+        </div>
+    </div>
+    
+    <div id="sipan-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('sipan-modal')">&times;</span>
+            <h2>Royal Tombs of Sipán Museum</h2>
+            <p>Additional information about the Royal Tombs of Sipán...</p>
+        </div>
+    </div>
+    
+    <div id="market-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('market-modal')">&times;</span>
+            <h2>Chiclayo Market</h2>
+            <p>Additional information about the Chiclayo Market...</p>
+        </div>
+    </div>
+
+    <div id="cathedral-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('cathedral-modal')">&times;</span>
+            <h2>Santa Maria Cathedral</h2>
+            <p>More details about Santa Maria Cathedral...</p>
+        </div>
+    </div>
+
+    <div id="paseo-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('paseo-modal')">&times;</span>
+            <h2>Paseo Las Musas</h2>
+            <p>More information about Paseo Las Musas...</p>
+        </div>
+    </div>
+
+    <div id="sipan-site-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('sipan-site-modal')">&times;</span>
+            <h2>Sipán Archaeological Site</h2>
+            <p>Additional details about the Sipán site...</p>
+        </div>
+    </div>
+
+    <div id="beach-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('beach-modal')">&times;</span>
+            <h2>Chiclayo Beach</h2>
+            <p>Information about the beautiful Chiclayo Beach...</p>
+        </div>
+    </div>
+    
+    <script src="script/Atractions.js"></script> <!-- Link to your JavaScript -->
+</body>
+</html>
